@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    background-color:dodgerblue;
+}
+
+.container
+{
+    margin:0 auto;
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+}
+
+.menu-container button {
+    color: white;
+    background-color: transparent;
+    border: 0;
+  }
+
