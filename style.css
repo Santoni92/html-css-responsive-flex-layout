@@ -8,7 +8,7 @@
     display:flex;
 }
 
-/*header*/
+/*****************************************header*********************************************/
 header{
     background-color:dodgerblue;
 }
@@ -30,14 +30,14 @@ header{
     background-color: transparent;
     border: 0;
   }
-  /*/header*/
-  /*main*/
+  /***************************************header********************************************/
+  /********************************************main*****************************************/
 
 main{
     display: flex;
     flex-direction: column;
 }
-
+/***********sez-demo-application*************/
 .sez-card{
     display: flex;
     flex-direction: column;
@@ -52,21 +52,35 @@ main{
 }
 
 .card h1, .card p{
-    margin-bottom:10px;
+    margin: 30px 10px;
+}
+
+.card i, .card h1{
+    align-self:center;
 }
 
   #demo-application{
     display: flex;
     flex-direction: column;
-      padding: 28px 20px;
-      margin:20px 0px;
-      border-radius: 50px;
-      background-color:#9cd3f2;
+    padding: 28px 20px;
+    margin:20px 0px;
+    border-radius: 50px;
+    background-color:#9cd3f2;
   }
  
   #demo-application img{
       width:50%;
+      align-self:center;
       margin-top:10px;
+  }
+
+  #demo-application-button{
+    width: 30%;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    align-self: center;
   }
 
   #clean-code{
@@ -105,27 +119,33 @@ main{
     border-radius: 50px;
     background-color:#d5d4f4;
   }
+  /***********sez-strategic-planning*************/
 
 .strategic-planning{
       display:flex;
       flex-direction: column;
       padding:0px 20px;
-      background-color: aquamarine;
+      background-color: #9692e6;
   }
+
+.strategic-planning img{
+    width:30%;
+}
 
   .strategic-planning-content{
     display: flex;
     flex-direction: column;
-    background-color: yellow;;
+    /*background-color: yellow;*/
   }
 
   #computer{
-    background-color: red;
+    /*background-color: red;*/
     padding:20px 20px;
   }
 
   #computer img{
     width:50%;
+    align-self: center;
   }
 
   #testo{
@@ -133,5 +153,72 @@ main{
   }
 
   #app-development{
-    padding:20px 20px;
+    display:flex;
+    flex-direction:column;
+    padding:50px 20px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 50px;
   }
+
+  #app-development img{
+      align-self: center;
+  }
+/*****************sez-testimonials*****************/
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.testimonials img{
+    width:80%;
+    border-radius: 50px;
+}
+
+#nat-reynolds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffbfbf;
+    border-radius: 50px;
+    margin:20px 0px;
+    padding:60px 40px;
+}
+
+#celia-almeda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #feddaa;
+    border-radius: 50px;
+    margin:20px 0px;
+    padding:60px 40px;
+}
+
+#bob-roberts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b2e9ca;
+    border-radius: 50px;
+    margin:20px 0px;
+    padding:60px 40px;
+}
+/********************sez-benefits**************************/
+.benefits{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+    background-color: #9692e6;
+}
+
+.hight-quality{
+    display: flex;
+    flex-direction: column;
+    padding: 28px 20px;
+    margin:20px 0px;
+    border-radius: 50px;
+    background-color:#f4f2fd;
+
+}
