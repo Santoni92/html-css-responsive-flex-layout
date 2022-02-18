@@ -56,6 +56,8 @@ main{
 }
 
   #demo-application{
+    display: flex;
+    flex-direction: column;
       padding: 28px 20px;
       margin:20px 0px;
       border-radius: 50px;
@@ -64,9 +66,12 @@ main{
  
   #demo-application img{
       width:50%;
+      margin-top:10px;
   }
 
   #clean-code{
+    display: flex;
+    flex-direction: column;
     padding: 28px 20px;
     margin:20px 0px;
     border-radius: 50px;
@@ -74,6 +79,8 @@ main{
   }
 
   #web-design{
+    display: flex;
+    flex-direction: column;
     padding: 28px 20px;
     margin:20px 0px;
     border-radius: 50px;
@@ -81,6 +88,8 @@ main{
   }
 
   #development{
+    display: flex;
+    flex-direction: column;
     padding: 28px 20px;
     margin:20px 0px;
     border-radius: 50px;
@@ -89,6 +98,8 @@ main{
 
 
   #branding{
+    display: flex;
+    flex-direction: column;
     padding: 28px 20px;
     margin:20px 0px;
     border-radius: 50px;
