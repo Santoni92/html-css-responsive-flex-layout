@@ -48,33 +48,79 @@ main{
 .card{
     display: flex;
     flex-direction: column;
-    background-color: rgb(6, 117, 117);
+   /* background-color: rgb(6, 117, 117);*/
+}
+
+.card h1, .card p{
+    margin-bottom:10px;
 }
 
   #demo-application{
       padding: 28px 20px;
       margin:20px 0px;
       border-radius: 50px;
-      background-color: red;
-     
+      background-color:#9cd3f2;
+  }
+ 
+  #demo-application img{
+      width:50%;
   }
 
   #clean-code{
     padding: 28px 20px;
     margin:20px 0px;
     border-radius: 50px;
-    background-color: red;
+    background-color: #caf0db;
   }
 
   #web-design{
-    background-color: salmon;
+    padding: 28px 20px;
+    margin:20px 0px;
+    border-radius: 50px;
+    background-color: #fed2d1;
   }
 
   #development{
-    background-color: violet;
+    padding: 28px 20px;
+    margin:20px 0px;
+    border-radius: 50px;
+    background-color: #ffe7c3;
   }
 
 
   #branding{
-background-color:chartreuse;
+    padding: 28px 20px;
+    margin:20px 0px;
+    border-radius: 50px;
+    background-color:#d5d4f4;
+  }
+
+.strategic-planning{
+      display:flex;
+      flex-direction: column;
+      padding:0px 20px;
+      background-color: aquamarine;
+  }
+
+  .strategic-planning-content{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;;
+  }
+
+  #computer{
+    background-color: red;
+    padding:20px 20px;
+  }
+
+  #computer img{
+    width:50%;
+  }
+
+  #testo{
+    padding:20px 20px;
+  }
+
+  #app-development{
+    padding:20px 20px;
   }
