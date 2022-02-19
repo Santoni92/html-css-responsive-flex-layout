@@ -53,5 +53,67 @@
     .benefits button{
       align-self: flex-start;
     }
-  
   }
+
+  @media screen and (min-width:1500px){
+      /*header*/
+      .menu-container{
+          display:none;
+      }
+
+      #menu {
+          display: flex;
+      }
+
+      #menu ul{
+          display:flex;
+          column-gap:30px;
+      }
+
+      #menu ul li{
+          list-style-type: none;
+      }
+
+      #menu ul li a{
+          text-decoration: none;
+          color:white;
+      }
+
+      #menu ul button{
+          background-color: white;
+          border-radius:50px;
+          padding:10px 30px;
+      }
+      /*sez-demo-application*/
+      #demo-application{
+          display:flex;
+          flex-direction: row;
+          padding:120px 10px;
+      }
+
+      #demo-application button{
+          width:30%;
+      }
+
+      #clean-code{
+          padding:150px 20px;
+      }
+      /*sez-strategic-planning*/
+      #riga{
+          display:flex;
+      }
+
+      .strategic-planning-content{
+          justify-content:center;
+      }
+      /*sez-testimonials*/
+      #nat-reynolds img, #celia-almeda img, #bob-roberts img{
+          width:30%;
+      }
+
+      .info-testimonial{
+          padding:30px 40px;
+      }
+      /*sez-benefits*/
+      
+}

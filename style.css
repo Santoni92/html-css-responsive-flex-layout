@@ -231,3 +231,6 @@ main{
     align-self: center;
 }
 
+#menu{
+  display:none;
+}
