@@ -74,7 +74,7 @@ main{
       margin-top:10px;
   }
 
-  #demo-application-button{
+  #demo-application button{
     width: 30%;
     background-color: blue;
     color: white;
@@ -209,7 +209,7 @@ main{
 .benefits{
     display: flex;
     flex-direction: column;
-    padding:20px 20px;
+    padding:20px 30px;
     background-color: #9692e6;
 }
 
@@ -220,5 +220,14 @@ main{
     margin:20px 0px;
     border-radius: 50px;
     background-color:#f4f2fd;
-
 }
+
+.benefits button{
+    background-color: #9692e6;
+    color:white;
+    border-radius: 50px;
+    width: 40%;
+    padding: 10px;
+    align-self: center;
+}
+

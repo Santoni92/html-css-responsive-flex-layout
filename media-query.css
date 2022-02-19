@@ -1,0 +1,57 @@
+@media screen and (min-width:837px){
+    /*sez-demo-application*/
+    .row{
+      display: flex;
+      column-gap:20px;
+    }
+  
+    #clean-code{
+      padding: 60px 20px;
+    }
+  
+    #demo-application img, #demo-application button {
+      align-self: flex-start;
+    }
+  
+  /*sez-strategic-planning*/
+    #computer {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .strategic-planning{
+      padding:0px 50px;
+    }
+  
+    #testo h1, #app-development h1{
+      text-align:center;
+    }
+  
+    /*sez-testimonials*/
+    #nat-reynolds, #celia-almeda, #bob-roberts{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    #nat-reynolds img, #celia-almeda img, #bob-roberts img{
+      width:50%;
+    }
+  
+    .info-testimonial{
+      padding:0px 40px;
+    }
+    /*sez-benefits*/
+  .benefits{
+    padding:20px 50px;
+  }
+  
+    .hight-quality-row{
+      display: flex;
+      column-gap:30px;
+    }
+  
+    .benefits button{
+      align-self: flex-start;
+    }
+  
+  }
