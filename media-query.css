@@ -6,7 +6,7 @@
     }
   
     #clean-code{
-      padding: 60px 20px;
+      padding: 50px 20px;
     }
   
     #demo-application img, #demo-application button {
@@ -49,7 +49,7 @@
       display: flex;
       column-gap:30px;
     }
-  
+
     .benefits button{
       align-self: flex-start;
     }
@@ -96,7 +96,7 @@
       }
 
       #clean-code{
-          padding:150px 20px;
+          padding:200px 20px;
       }
       /*sez-strategic-planning*/
       #riga{
@@ -115,5 +115,8 @@
           padding:30px 40px;
       }
       /*sez-benefits*/
+      .benefits .card{
+
+      }
       
 }
